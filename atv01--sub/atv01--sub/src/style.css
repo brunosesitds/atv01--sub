@@ -1,0 +1,103 @@
+/* style.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+}
+
+.twitter{
+    width: 260px;
+    height: 400px;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 30px 20px;
+    transition: 0.4s;
+   
+}
+
+.instagram{
+    width: 260px;
+    height: 400px;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 30px 20px;
+    transition: 0.4s;
+    background-color: white;
+    color: black;
+}
+
+.youtube{
+    width: 260px;
+    height: 400px;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 30px 20px;
+    transition: 0.4s;
+    
+}
+
+.twitter:hover,
+.instagram:hover,
+.youtube:hover{
+    background-color: #e91e63;
+    color: white;
+    transform: translateY(-10px);
+}
+
+.twitter img,
+.instagram img,
+.youtube img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.twitter h2,
+.instagram h2,
+.youtube h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.twitter p,
+.instagram p,
+.youtube p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.twitter button,
+.instagram button,
+.youtube button{
+    width: 180px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* .twitter:hover button,
+.instagram:hover button,
+.youtube:hover button{
+    background-color: blue;
+    color: black;
+} */
